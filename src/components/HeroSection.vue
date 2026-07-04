@@ -438,6 +438,17 @@ import { RouterLink } from 'vue-router'
     gap: 0.8rem;
   }
 
+  .hero-name-stack {
+    min-height: auto;
+    align-content: start;
+    gap: 0.55rem;
+  }
+
+  .hero-subtitle {
+    max-width: 32ch;
+    line-height: 1.4;
+  }
+
   .hero-profile-figure {
     position: relative;
     top: auto;
@@ -446,6 +457,17 @@ import { RouterLink } from 'vue-router'
     transform: none;
     width: min(280px, calc(100% - 2.6rem));
     margin: 0 auto 0.9rem;
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .hero-profile-photo {
+    height: auto;
+    aspect-ratio: 3 / 4;
+  }
+
+  .hero-profile-figure figcaption {
+    margin-top: 0;
   }
 
   .hero-chip {
